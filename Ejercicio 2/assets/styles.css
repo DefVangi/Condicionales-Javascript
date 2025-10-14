@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor_stickers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+
+.contenedor_stickers img {
+    width: 300px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
