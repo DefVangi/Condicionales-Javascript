@@ -3,12 +3,17 @@
     padding: 0;
 }
 
+.contenedor_titulo {
+    margin-top: 20px;
+}
+
 .contenedor_stickers {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: end;
     gap: 20px;
+    margin-top: 40px;
 }
 
 .contenedor_stickers img {
@@ -17,6 +22,20 @@
 
 .card {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items:end;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenedor_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn_validar {
+    width: 200px;
 }
